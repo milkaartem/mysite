@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:900&display=swap');
 body {
  background: linear-gradient(to right, #00ff99 0%, #0099ff 100%);
 }
@@ -11,7 +12,6 @@ p {
  font-size: 17px;
  text-align: center;
 }
-@import url('https://fonts.googleapis.com/css?family=Merriweather:900&display=swap');
 
 :root {
   --color-primary: #002626;
