@@ -5,40 +5,28 @@
   </head>
 <body>
 <div class='namesite'>
-input(type="checkbox" id="check")
+put(type="checkbox" id="check")
 label(for="check")
-  svg(viewBox="0 0 30 30" width="30" height="30")
-    path#one(
-    d="M4 10h22M4"
-    stroke="#fff"
-    stroke-width="2"
-    stroke-linecap="round"
-    )
-    path#two(
-    d="M4 20h22M4"
-    stroke="#fff"
-    stroke-width="2"
-    stroke-linecap="round"
-    )
-  |  Click me
+svg(viewBox="0 0 30 30" width="30" height="30")
+path#one(
+d="M4 10h22M4"
+stroke="#fff"
+stroke-width="2"
+stroke-linecap="round"
+)
+path#two(
+d="M4 20h22M4"
+stroke="#fff"
+stroke-width="2"
+stroke-linecap="round"
+)
+| Click me
 
 aside
-  .top
-    h2 Title
-    ul
-      - for (var x=0;x<5;x++)
-        li Nav text
-  .bottom
-    p &copy; 2019 by Andrej Sharapov
-article
-  .wrapper
-    .content
-      h1 Off-Canvas menu on Pure CSS
-      p Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident rerum unde porro consequatur doloribus ex distinctio similique, voluptas repellendus voluptates nam dolorum! Repudiandae maxime, itaque vero dolorem distinctio inventore explicabo!
-      p Odio eaque cum blanditiis esse, earum saepe voluptate quae aliquid possimus facere non qui illo necessitatibus eveniet ab sit quaerat. Atque animi nulla veritatis molestiae qui ipsam ut assumenda facilis?
-    .footer
-      p Follow me 
-        a(href="https://twitter.com/andrejsharapov" target="_blank" title="") in Twitter
+.top
+h2 Title
+ul
+- for (var x=0;x<5;x++) li Nav text .bottom p &copy; 2019 by Andrej Sharapov article .wrapper .content h1 Off-Canvas menu on Pure CSS p Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident rerum unde porro consequatur doloribus ex distinctio similique, voluptas repellendus voluptates nam dolorum! Repudiandae maxime, itaque vero dolorem distinctio inventore explicabo! p Odio eaque cum blanditiis esse, earum saepe voluptate quae aliquid possimus facere non qui illo necessitatibus eveniet ab sit quaerat. Atque animi nulla veritatis molestiae qui ipsam ut assumenda facilis? .footer p Follow me a(href="https://twitter.com/andrejsharapov" target="_blank" title="" ) in Twitter
 </div>
 </body>
 </html>
